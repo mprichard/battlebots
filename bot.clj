@@ -10,15 +10,12 @@
                            :metadata  {:direction (rand-nth  [0 1 2 3 4 5 6 7])}}]]]
     {:commands (rand-nth command-options)}))
 
-(defn make-my-decision [arena bot_id]
+(defn make-my-decision
+  [arena bot_id]
 
   (for  [a arena]
     (let type (get-in type [:type]))
     (if (= type "block")
       ;; this is a block so we can't go here
 
-      )
-
-       )
-
-  )
+      )))
