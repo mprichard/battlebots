@@ -1,4 +1,4 @@
-;; First bot. Started 062516 for Battlebots hackathon
+;; First bot. Started 062516 for Battlebots
 
 (defn run
   [{:keys  [arena state bot_id energy spawn-bot?] :as step-details}]
